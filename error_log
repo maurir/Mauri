@@ -1,0 +1,6 @@
+[09-May-2014 17:37:42 UTC] PHP Fatal error:  Call to undefined function get_plugin_data() in /home1/redondo3/public_html/justmauri/wp-content/plugins/mojo-marketplace-wp-plugin/inc/user-experience-tracking.php on line 148
+[23-May-2014 14:45:55 America/Denver] PHP Notice:  Undefined index: filename in /home1/redondo3/public_html/justmauri/quick-deploy.php on line 123
+[23-May-2014 14:46:49 America/Denver] PHP Notice:  Undefined variable: dbc in /home1/redondo3/public_html/justmauri/quick-deploy.php on line 383
+[23-May-2014 14:46:49 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home1/redondo3/public_html/justmauri/quick-deploy.php on line 383
+[14-Jul-2014 12:33:43 America/Denver] PHP Notice:  Undefined variable: dbc in /home1/redondo3/public_html/justmauri/quick-deploy.php on line 383
+[14-Jul-2014 12:33:43 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home1/redondo3/public_html/justmauri/quick-deploy.php on line 383

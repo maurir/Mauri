@@ -1,0 +1,179 @@
+/* Initialize Style sheet that comes with _s theme.*/
+@import "initial.scss";
+
+/* Adding Bootstrap */
+@import "../bootstrap/stylesheets/bootstrap.scss";
+
+
+
+
+/* Some variables */
+
+$jm_brand_color: #4a3628;
+$jm_light_brand_color: #ccbfae;
+$jm_accent_color: #98a3a2;
+$jm_link_color: $jm_accent_color;
+$jm_brand_off: #ccbfae;
+
+
+/* Specific to Site Navigation */
+@import "site-navigation.scss";
+
+/* Stylings specific to front page */
+@import "front-page.scss";
+
+@import "portfolio.scss";
+
+body { 
+	margin-top:50px;
+	font-family: 'raleway' arial serif;
+	font-weight: 400px;
+	color: $jm_brand_color;
+
+	a, a:visited {
+		color: $jm_link-color;
+	}
+
+	h1, h2, h3 {
+
+		font-family: 'lato' arial serif;
+		color: $jm_brand_color;
+
+		small {
+			color: lighten($jm_brand_color, 50%)
+		}
+	}
+
+	p {
+		line-height: 1.5;
+	}
+
+	.widget { margin: 0;}
+}
+
+
+
+
+#page {
+	position: relative;
+}
+
+
+
+
+
+.gform_wrapper {
+
+	input, textarea {
+		border-radius: 5px;
+	}
+
+	.button {
+		background: transparent;
+		color: $jm_brand_color;
+		padding: 10px 16px;
+		border: 1px solid $jm_brand_color;
+
+
+		&:hover {
+			background: $jm_brand_color;
+			color: lighten($jm_brand_color, 75%);
+			border: lighten($jm_brand_color, 75%);
+		}
+
+
+	}
+
+	li.gfield_error {
+		background: $jm_light_brand_color !important;
+		border-top-color: $jm_brand_color !important;
+		border-bottom-color: $jm_brand_color !important;
+	}
+
+}
+
+/*Widget Styling*/
+
+#footer-widgets {
+	padding: 20px;
+
+	.jm-footer-space {
+		margin-right: 15px;
+
+	}
+
+	#footer-right {
+		margin-right: 0px;
+	}
+
+}
+
+
+.blog, .single-post {
+	background-color: $jm_light_brand_color;
+
+	#content {
+		background-color: white;
+		padding: 30px;
+		margin-top: 50px;
+	}
+
+}
+
+
+.entry-title {
+		a {
+		color: $jm-brand-color;
+		text-decoration: none;
+		}
+	
+	margin-bottom: 16px;
+	margin-top: 0px;
+
+}
+
+.entry-meta {
+	margin-bottom: 24px;
+
+	span {
+		font-style: italic;
+
+		a {
+			font-weight: bold;
+			font-style: normal;
+		}
+
+		.updated { display:none;}
+	}
+}
+
+.entry-content {
+	border-bottom: 1px dotted lighten($jm_brand_color, 40%);
+	margin-bottom: 5px;
+}
+
+.entry-footer {
+	margin-bottom: 40px;
+	
+
+	span {
+		padding-right: 7px;
+	}
+}
+
+.site-footer {
+	margin-top: 10px;
+}
+
+.widget-title {
+	margin-top: 0px;
+}
+
+.form-allowed-tags {display:none;}
+
+.dropdown-menu >li > a {
+	color: $jm_brand_color;
+}
+
+
+

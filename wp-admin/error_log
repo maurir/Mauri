@@ -1,0 +1,1 @@
+[02-Jun-2014 17:57:07 UTC] PHP Fatal error:  Call to undefined function ga_dash_reset_token() in /home1/redondo3/public_html/justmauri/wp-content/plugins/google-analytics-dashboard-for-wp/admin/ga_dash_settings.php on line 637

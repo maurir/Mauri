@@ -1,0 +1,63 @@
+/* Site Navigation Styling */
+
+#site-navigation {
+	background-color: $jm_brand_color;
+	
+	.logged-in & {
+		top: 32px; 
+		border-top: 1px solid white;
+
+		@media (max-width: 782px) {
+			top: 46px;
+		}
+	}
+	.navbar-header > button {
+		margin-right: 0px;
+	}
+	.nav {
+		a{
+		 color: lighten($jm_brand_color, 75%);
+
+		 	&:hover {
+		 		background-color: lighten($jm_brand_color, 40%);
+		 	}
+		}
+	}
+
+	.dropdown-menu >li > a {
+		color: $jm_brand_color;
+	}
+
+	.widget {
+		padding: 0px 10px !important;
+		float: right;
+		display: inline-block;
+
+		.socialmedia-buttons {
+			margin: 0;
+
+
+		
+			a {
+				display: inline-block;
+				height: 50px;
+
+				&:hover {
+		 		background-color: lighten($jm_brand_color, 40%) !important;
+			 	}
+
+				img {
+					margin-top: 13px;
+					margin-left: 0px !important;
+				}
+
+				&:first-child img {
+					display: inline-block;
+					border-left: 1px solid white;
+				}
+
+			}
+		}
+	}
+}
+

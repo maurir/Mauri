@@ -1,0 +1,109 @@
+
+.single-jm_portfolio {
+	background-color: $jm_light_brand_color;
+	
+	#masthead {
+		padding-top: 20px;
+	}
+
+	.site-branding {
+		margin-top: 30px;
+
+		background:  $jm_accent_color url('../img/portfolio-header-background.jpg') repeat top center;
+		padding: 0;
+		margin: 0;
+		// height: 100px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+
+		h1 {
+			padding:0;
+			padding-left: 10px;
+			margin: 0;
+			color: $jm_brand_color;
+		}
+	}
+
+	#content {
+		background-color: white;
+		padding-top: 20px;
+		margin-top: 0px;
+	
+	.row { margin:0px;}
+	}
+
+	#primary {
+		 @media screen and (max-width: 768px) {
+		 	margin-left: 10px;
+		 	margin-right: 10px;
+		 }
+	}
+
+	.JMclient { 
+		margin-left: 20px;
+		max-width: 250px;
+		text-align: center;
+
+	}
+
+	.portfolio-sidebar-left {
+		// margin-left: 10px;
+	}
+
+	.portfolio-sidebar-right {
+		// -right: 10px;
+	}
+
+	.testemonial {
+		img { 
+		float: left;
+		padding: 5px;
+		// max-width: 200px;
+		}
+		p { clear:both;}
+
+	
+	}
+
+	.soliloquy-container { 
+
+		.soliloquy img {
+			border-radius: 8px;
+			border: 1px solid rgba(16,16,16, 0.45);
+
+			// -webkit-box-shadow: 10px 10px 19px -6px rgba(16,16,16,0.25);
+			// -moz-box-shadow: 10px 10px 19px -6px rgba(16,16,16,0.25);
+			// box-shadow: 10px 10px 19px -6px rgba(16,16,16,0.25);
+
+		}
+
+	}
+
+	.geekFiles {
+		
+		.geekTab {
+			border:3px solid $jm_light_brand_color;
+			background: $jm_light_brand_color;
+			display:inline-block;
+			border-top-left-radius: 4px;
+			border-top-right-radius: 4px;
+			margin:0;
+			padding: 0 4px;
+
+		}
+
+		.geekContent{
+			padding: 5px;
+			padding-top: 10px;
+			border: 3px solid $jm_light_brand_color;
+			background-color: $jm_light_brand_color;
+			border-radius: 4px;
+			border-top-left-radius: 0px;
+
+			-webkit-box-shadow: 10px 10px 19px -6px rgba(16,16,16,0.25);
+			-moz-box-shadow: 10px 10px 19px -6px rgba(16,16,16,0.25);
+			box-shadow: 10px 10px 19px -6px rgba(16,16,16,0.25);
+		}
+	}
+}
+
